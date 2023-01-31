@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    padding: 1rem;
+    border-top: solid 1em var(--primary-color);
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 1em;
+}
