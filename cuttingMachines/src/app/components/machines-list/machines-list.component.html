@@ -1,5 +1,22 @@
 <main>
     <div class="container mt-3">
-        <p>machines-list works!</p>
+        <h3 class="title">2D cutting Machines</h3>
+        <hr>
+        <section class="mx-lg-5">
+            <table class="table my-5 table-striped table-hover">
+                <thead class="thead">
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Manufacturer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="machine" *ngFor="let machine of arrMachines">
+                        <td>{{machine?.name}}</td>
+                        <td>{{machine?.manufacturer}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </div>
 </main>

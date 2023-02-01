@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrl: 'https://app-academy-neu-codechallenge.azurewebsites.net/api/2d/cut',
+  user: 'lantekacademy',
+  pass: ':cPIi<kyF(=5OXc'
 };
 
 /*
