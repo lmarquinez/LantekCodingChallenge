@@ -60,8 +60,11 @@ npm i
 ng serve
 ```
 
+![screencapture-localhost-4200-2023-01-31-21_35_00](https://user-images.githubusercontent.com/43243069/216023749-533969b8-d18a-400b-a50b-ad91c43e8789.png)
+
 ## Testing
 ```sh
 ng test
 ```
 
+![screencapture-localhost-9876-2023-02-01-11_10_54](https://user-images.githubusercontent.com/43243069/216023801-429af13a-68d9-40f5-8c46-09cc37de36b4.png)
