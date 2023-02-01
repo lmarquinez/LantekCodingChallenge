@@ -12,7 +12,7 @@ I've spent 2 hours doing this coding test. Where I've spent the most time is on 
 
 2. What was the most useful feature added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
--- The use of components, each one being independent. I have created three components, one for the header, other one for the list of machines and last one, for the footer. 
+- The use of components, each one being independent. I have created three components, one for the header, other one for the list of machines and last one, for the footer. 
 ```ng g c folderName/componentName```
 
 ```sh
@@ -21,7 +21,7 @@ I've spent 2 hours doing this coding test. Where I've spent the most time is on 
             ng generate component components/footer 
 ```
 
--- The asynchronous functions, using ```AWAIT``` to wait for the result of the promise, which is the list of machines we get from the API. Once it is resolved, it restart the execution of the function with ```ASYNC``` and returns the resolved value.
+- The asynchronous functions, using ```AWAIT``` to wait for the result of the promise, which is the list of machines we get from the API. Once it is resolved, it restart the execution of the function with ```ASYNC``` and returns the resolved value.
 
 ```sh
     async ngOnInit(): Promise<void> {
@@ -33,7 +33,7 @@ I've spent 2 hours doing this coding test. Where I've spent the most time is on 
             }
         }
 ```
--- Use of structural directives, such as ```*ngFor```. With this directive you can iterate over the array of machines received. This way, the data of each machine, can be display on the table.
+- Use of structural directives, such as ```*ngFor```. With this directive you can iterate over the array of machines received. This way, the data of each machine, can be display on the table.
 
 ```sh
             <tr *ngFor="let machine of arrMachines">
@@ -47,9 +47,9 @@ I have never had to do this, but I imagine that being about performance, you wou
 
 4. How would you improve the Lantek API that you just used?
 
--- More data about the machines, and with the possibility of having a pagination.
--- API documentation. The API should be more complet, with more methods. For example, the use of swagger to create this type of documentation.
--- Use a token for authentication. The token provides an additional level of security for accessing the data.
+- More data about the machines, and with the possibility of having a pagination.
+- API documentation. The API should be more complet, with more methods. For example, the use of swagger to create this type of documentation.
+- Use a token for authentication. The token provides an additional level of security for accessing the data.
 
 
 ## Installation
